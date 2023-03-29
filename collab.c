@@ -22,12 +22,15 @@ void reed_ekidan2() {
   printf("Dale Reed and Ellen Kidane\n");
   printf("We learned that git and GitHub are amazing, powerful tools!\n");
 }
+void amite2() {
+  printf("Andrej Mitevski\n");
+  printf("Thought that github was literally just a place to upload code, learned it has a lot more than that\n");
+}
 
 void shadd3_alojko2() {
   printf("Sammy Haddad and Angela Lojko\n");
-  printf("From the readings, we learned that git and GitHub are really "
-         "effective when working on large projects with many people.\n");
-  printf("We can also see what a user changed/added to the program.\n");
+  printf("From the readings, we learned that git and GitHub are really effective when working on large projects with many people.\n");
+  printf("We can also see what a user changed/added to the program.\n"); 
 }
 
 void ppacho2_grohr2() {
@@ -66,27 +69,18 @@ void stinu2_cdoma2() {
          "able to keep version and logs of a working tree/ code progress");
 }
 
+
 void jgongo2_pkoby2_kseki3() {
-  printf("Juli Gongora Falla, Phillip Kobylinski, and Kaito Sekiya\n");
-  printf("We learned that commit and push are seperate operations. "
-         "You can make multiple commmits before pushing to the repository.\n");
+    printf("Juli Gongora Falla, Phillip Kobylinski, and Kaito Sekiya\n");
+    printf("We learned that commit and push are seperate operations. "
+           "You can make multiple commmits before pushing to the repository.\n");
 }
 
-void pghimi3_ariver67() {
+void pghimi3_ariver67(){
   printf("Pratishat Ghimire and Arturo Rivera");
-  printf("We learned how to reflect the changes made locally, remotely on the "
-         "original repo");
+  printf("We learned how to reflect the changes made locally, remotely on the original repo");
 }
 
-<<<<<<< HEAD
-void ddesle3_yshah33() {
-  printf("Dishant Desle, Yashwi Shah\n");
-  printf("We learned to connect and collaborate on a code under one\n");
-  printf("repository and that we can update the existinig repository.");
-  printf("We learned that github is online programming tool\n");
-  printf(
-      "that more software companies use to communicate about their project\n");
-=======
 void dzabi2(){
   printf("Denys Zabiyaka");
   printf("I learned that Git allows developers to create multiple branches for their codebase.");
@@ -100,16 +94,10 @@ void ddesle3_yshah33(){
     printf("that more software companies use to communicate about their project\n");
     
 }
-void jrosal21_melqa2() {
-  printf("Isaac Rosales, Musa Elqaq");
-  printf("Xcode has integrated source control in the toolbar which contains "
-         "git hub commands.");
-  printf("Installing to local machine and keeping track of commits.");
-}
-
-void wsitu3() {
-  printf("Wulong Situ\n");
-  printf("I had trouble understand how to reflect changes made locally to the repository using add and commit");
+    void jrosal21_melqa2(){
+    printf("Isaac Rosales, Musa Elqaq");
+    printf("Xcode has integrated source control in the toolbar which contains git hub commands.");
+    printf("Installing to local machine and keeping track of commits.");
 }
 
 void vcolom2(){
@@ -145,9 +133,15 @@ void aomar22() {
   printf("I learned that git pull is combination of git fetch and git merge.\n");
 }
 
+void wsitu3() {
+  printf("Wulong Situ\n");
+  printf("I had trouble understand how to reflect changes made locally to the repository using add and commit");
+}
+
 int main() {
   printf("This code has been created by the students of CS 211, Spring 2023!\n\n");
   reed_ekidan2();
+  amite2();
   shadd3_alojko2();
   mausaf2_kperez39();
   ppacho2_grohr2();
@@ -158,14 +152,12 @@ int main() {
   dzabi2();
   ddesle3_yshah33();
   jrosal21_melqa2();
-<<<<<<< HEAD
-  wsitu3();
-  
-=======
+  vcolom2();
   dshah97_ysawa2();
   svoda_jbrya4();
   rwisni2_ajoshi46();
+  wsitu3();
+  
     
->>>>>>> eaa20a93bfba986570576dda46011288f2c7ced8
   return 0;
 }
