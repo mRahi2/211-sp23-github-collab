@@ -221,6 +221,12 @@ void dnazi2_lcasti39(){
   printf("Something that gave us trouble was figuring out the logistics of github, \n like creating repositories\n");
 }
 
+void RGarn3_mRahi2(){
+  printf("Rachel Garner and Minahil Rahimullah);
+  printf("Something that gave us trouble was figuring out how to navigate github and what each option does\n");
+  printf("Had to do some reasearching befor figuring all the buttons and commands\n");
+}
+
 int main() {
   printf(
       "This code has been created by the students of CS 211, Spring 2023!\n\n");
@@ -253,6 +259,7 @@ int main() {
   bpark40();
   ddizo2_tle94();
   dnazi2_lcasti39();
+  RGarn3_mRahi2();
 
   return 0;
 }
